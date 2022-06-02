@@ -66,7 +66,7 @@ function deselectAnswers() {
 function getSelected() {
   let answer;
   answerEls.forEach((answerEl) => {
-    if (answerEls.checked) {
+    if (answerEl.checked) {
       answer = answerEl.id;
     }
   });
